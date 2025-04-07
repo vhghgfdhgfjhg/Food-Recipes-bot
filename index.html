@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Recipes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+        <div class="bar">
+        <img src="img/voucher_6626484.png" class="icon">
+        <h2>Food Recipes</h2>
+        </div>
+        <div class="bar">
+        <input type="text" placeholder="Enter the food name" class="input" required>
+        <img src="img/search_6303607.png" class="search">
+        </div>
+        </nav>
+
+        <div class="li">
+            <div class="items">
+                <img src="" id="itemimg">
+                <h3 id="itemname" style="color: white;text-align:center;font-family: Arial, Helvetica, sans-serif;text-decoration:underline;font-size:22px"></h3>
+
+                <div style="color: white;font-family: Arial, Helvetica, sans-serif;display:flex;gap:10px;align-items:flex-start;justify-content:flex-start;font-size:22px">Area:
+                    <h3 id="itemarea" style="color: white;text-align:center;font-family: Arial, Helvetica, sans-serif"></h3>
+                </div>
+
+                <div style="color: white;font-family: Arial, Helvetica, sans-serif;display:flex;gap:10px;align-items:flex-start;justify-content:flex-start;font-size:22px">Category:<h3 id="itemCategory" style="color: white;text-align:center;font-family: Arial, Helvetica, sans-serif"></h3></div>
+
+                <button class="infobtn" onclick="click()">How to make</button>
+
+                <div class="in"><button class="cl">&#x2716;</button>
+
+                <div style="color: rgb(0, 0, 0);font-family: Arial, Helvetica, sans-serif;display:flex;gap:10px;align-items:flex-start;justify-content:flex-start;padding:10px;font-size:22px;border-bottom:1px solid black;">Recipe-Name: <h5 style="font-size: 20px;" id="infoname"></h5></div>
+
+                <div style="color: rgb(0, 0, 0);font-family: Arial, Helvetica, sans-serif;display:flex;gap:10px;align-items:flex-start;justify-content:flex-start;padding:10px;font-size:20px;border-bottom:1px solid black;">Ingredients with Measure: <h5 style="font-size: 20px;" id="infoingredients"></h5></div>
+
+                <div style="color: rgb(0, 0, 0);font-family: Arial, Helvetica, sans-serif;display:flex;gap:10px;align-items:flex-start;justify-content:flex-start;padding:10px;font-size:22px;border-bottom:1px solid black;">Instruction: <h5 style="font-size: 20px;" id="infoinstuction"></h5></div>
+
+                <div style="color: rgb(0, 0, 0);font-family: Arial, Helvetica, sans-serif;display:flex;gap:10px;align-items:flex-start;justify-content:flex-start;padding:10px;font-size:22px;border-bottom:1px solid black;">Youtube link: <a href="#" style="font-size: 20px;" id="infoyoutube">Link to video</a></div>
+                
+                </div>
+            </div>
+            
+        </div> 
+
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
